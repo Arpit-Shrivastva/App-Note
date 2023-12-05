@@ -15,10 +15,6 @@
 - Copy the files from the `app` folder of the `Keep-Note` solution developed for the challenge of the previous sprint - `Sprint 4: Implement Navigation using Angular Routing`.
     - Paste these files in the `app` folder of the boilerplate code.
 
-Notes:
-1. The solution of this challenge will undergo an automated evaluation on the `CodeReview` platform. (Local testing is recommended prior to the testing on the `CodeReview` platform)
-2. The test cases are available in the boilerplate.
-
 ### Context
 
 As you are aware, `Keep-Note` is a web application that allows users to maintain notes. It is developed as a single-page application using multiple components. 
@@ -92,19 +88,4 @@ Note: The guard name and the method name mentioned above are used in testing, so
 ##### Expected Output – Edit View (Leaving without Saving)
 
 ![](./resources/edit-view.jpg)
-
-### Test the Solution Locally​
-
-Test the solution first locally and then on the `CodeReview` platform. Steps to test the code locally are:
-- From the command line terminal, set the path to the folder containing cloned boilerplate code.
-- Run the command `ng test` or `npm run test` to test the solution locally and ensure all the test cases pass.
-- Refactor the solution code if the test cases are failing and do a re-run.​
-- Finally, push the solution to git for automated testing on the CodeReview platform.
-
-### Test the Solution on the `CodeReview` Platform
-
-Steps to test the code on the `CodeReview` platform are:
-- Open the submission page at [https://codereview.stackroute.niit.com/#/submission](https://codereview.stackroute.niit.com/#/submission).
-- Submit the solution.
-- For the failed test cases, refactor the code locally and submit it for re-evaluation.
 
