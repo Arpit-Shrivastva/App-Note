@@ -1,0 +1,40 @@
+<!-- <mat-card class="example-card"> -->
+    <div class="contact-del card" *ngIf="showMe">
+        <h4>New Note</h4>
+        <form #noteForm="ngForm" (ngSubmit)="addNote(noteForm)">
+            <mat-form-field appearance="fill">
+                <mat-label>Note Title</mat-label>
+                <input matInput type="text" placeholder="Title" #title = "ngModel" name="title" required [(ngModel)]="Note.title" />
+                <mat-error *ngIf="title.errors?.['required']">Note title is required</mat-error>
+            </mat-form-field>
+            <mat-form-field appearance="fill">
+                <mat-label>Note Content</mat-label>
+                <textarea matInput placeholder="Content" name="content" #content = "ngModel" minlength="5" required [(ngModel)]="Note.content"></textarea>
+                <mat-error *ngIf="content.errors?.['required']">Note content is required</mat-error>
+                <mat-error *ngIf="content.errors?.['minlength']">Note content should have minimim 5 characters</mat-error>
+            </mat-form-field>
+            <mat-form-field>
+                <mat-label>Reminder Date</mat-label>
+                <input matInput type="date" name="remindDate" #remindDate = "ngModel" required [(ngModel)]="Note.reminderDate" />
+                <mat-error *ngIf="remindDate.errors?.['required']">Reminder date is required</mat-error>
+            </mat-form-field>
+            <p>MM/DD/YY</p>
+            <mat-form-field>
+                <mat-label>Add Category</mat-label>
+                <input matInput type="text" name="category" required [(ngModel)]="Note.category" />
+            </mat-form-field>
+            <mat-radio-group aria-label="Select an option" name="priority" [(ngModel)]="Note.priority" required>
+                <mat-label class="block">Priority</mat-label>
+                <mat-radio-button class="space" value="Low">Low</mat-radio-button>
+                <mat-radio-button class="space" value="Medium">Medium</mat-radio-button>
+                <mat-radio-button class="space" value="High">High</mat-radio-button>
+                <mat-radio-button class="space" value="Critical">Critical</mat-radio-button>
+            </mat-radio-group>
+            <button id="btn" [disabled]="noteForm.invalid" mat-raised-button color="primary"><mat-icon>save</mat-icon></button>
+        </form>
+    </div>
+<!-- </mat-card> -->
+
+<button id="add" mat-mini-fab matTooltip="Add Note" color="primary" (click)="toggleTag()">
+    <mat-icon>add</mat-icon>
+</button>

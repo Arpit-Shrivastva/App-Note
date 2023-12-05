@@ -1,0 +1,16 @@
+#icons {
+    margin-left: 1050px;
+
+    outline: none;
+}
+
+button {
+    border: none;
+    color: white;
+    background-color: #3f51b5;
+}
+
+.list {
+    margin-left: 5px;
+    margin-right: 5px;
+}

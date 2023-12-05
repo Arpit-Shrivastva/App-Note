@@ -1,0 +1,13 @@
+#flex {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#add {
+    position: fixed;
+    right: 0;
+    bottom: -50px;
+    margin: 50px;
+    padding: 1px;
+}

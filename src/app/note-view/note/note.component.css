@@ -1,0 +1,25 @@
+.title {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.para {
+    font-weight: 500;
+} 
+
+.dpara{
+    margin-left: 30px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.example-card {
+    width: 280px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+mat-card-actions{
+    display: flex;
+    justify-content: space-between;
+}

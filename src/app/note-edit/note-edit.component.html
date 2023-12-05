@@ -1,0 +1,18 @@
+<section class="main_section container-fluid d-flex justify-content-center my-5">
+    <form id="edit_noteform" class=" border border-1 border-light rounded-3 p-2 shadow-lg">
+        <h2 class="text-dark fs-5">Edit Note</h2>
+        <!-- Note Title  -->
+        <mat-form-field appearance="legacy" class="w-100">
+            <input class="text-dark" matInput type="text" name="title" id="noteTitle" placeholder="Note Title" required [(ngModel)]="note.title" #title="ngModel">
+            <mat-error *ngIf="title.errors?.['required']">Note title is required</mat-error>
+        </mat-form-field><br>
+        <!-- Note Content  -->
+        <mat-form-field appearance="legacy" class="w-100">
+            <textarea matInput name="content" id="noteContent" cols="45" rows="4" placeholder="Note Content" [(ngModel)]="note.content" minlength="5" #content="ngModel" required></textarea>
+            <mat-error *ngIf="content.errors?.['required']">Note content is required</mat-error>
+            <mat-error *ngIf="content.errors?.['minlength']">Note contain should have minimum 5 characters</mat-error>
+        </mat-form-field>
+        <!-- Button  -->
+        <Button class="my-1 btn btn-primary" matRipple type="submit" (click)="editNote()">Save</Button>
+    </form>
+</section>

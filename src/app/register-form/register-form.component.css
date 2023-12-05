@@ -1,0 +1,57 @@
+.form {
+    width: 500px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.name {
+    margin-left: 50px;
+    width: 200px;
+}
+
+.mail {
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 450px;
+}
+
+.pass {
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 200px;
+}
+
+.gender {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 450px;
+}
+
+/* .mat-mdc-radio-button~.mat-mdc-radio-button {
+    margin-left: 16px;
+} */
+
+.multi {
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 200px;
+}
+
+.street {
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 200px;
+}
+
+.state {
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 200px;
+}
+
+button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    width: 130px;
+}

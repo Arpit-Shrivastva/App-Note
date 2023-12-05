@@ -1,0 +1,15 @@
+<div>
+    <app-note-add (NoteAdded)="onNoteAdded($event)"></app-note-add>
+</div>
+<div>
+    <app-search (searchText)="onSearchText($event)"></app-search>
+</div>
+<div id="flex">
+    <app-note *ngFor="let note of notes" [Note]="note" routerLink=""></app-note>
+</div>
+
+<button id="add" mat-mini-fab matTooltip="logout" routerLink="/login" (click)=" reload()" color="primary">
+    <mat-icon>logout</mat-icon>
+</button>
+
+<router-outlet></router-outlet>

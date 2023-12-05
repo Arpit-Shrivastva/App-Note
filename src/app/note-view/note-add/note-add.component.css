@@ -1,0 +1,57 @@
+.contact-del {
+    width: 400px;
+    margin-left: 540px;
+    padding: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+
+h4 {
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+textarea {
+    padding: 5px;
+    width: 280px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+}
+
+.mat-form-field {
+    width: 350px;
+}
+
+.block{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.space{
+    margin-left: 10px;
+}
+
+#btn {
+    margin-top: 30px;
+    padding: 14px;
+    margin-right: 100px;
+    border-radius: 100%;
+    color: white;
+}
+
+#add {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 50px;
+    padding: 1px;
+}
+
+p{
+    font-size: 10px;
+    margin-top: -20px;
+}

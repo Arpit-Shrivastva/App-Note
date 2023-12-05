@@ -1,0 +1,12 @@
+<!-- <div id="flex">
+    <div class="search">
+        <input [(ngModel)]="textVal" type="search" placeholder="Search Note" />
+        <button (click)="searchNote()">Search</button>
+    </div>
+</div> -->
+
+<mat-form-field appearance="fill" id="search">
+    <mat-label>Search Note</mat-label>
+    <input type="search" matInput [(ngModel)]="textVal" placeholder="Type Note....">
+</mat-form-field>
+<mat-icon matSuffix (click)="searchNote()" id="btn">search</mat-icon>

@@ -1,0 +1,71 @@
+{
+  "users": [
+    {
+      "firstName": "NANDITA",
+      "lastName": "VORA",
+      "password": "Nandita@123",
+      "confirmPassword": "Nandita@123",
+      "gender": "female",
+      "age": 30,
+      "email": "nandita.vora@stackroute.in",
+      "phone": "9920998416",
+      "address": {
+        "street": "A-1704, Ekta Bhumi Garden 3 Off Dattapada Road,",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "zipCode": 400066
+      },
+      "id": 1
+    }
+  ],
+  "notes": [
+    {
+      "id": 1,
+      "title": "Sample Note",
+      "content": "This is a sample note added for testing purpose",
+      "reminderDate": "2022-09-09T18:30:00.000Z",
+      "category": "Office",
+      "priority": "High"
+    },
+    {
+      "id": 2,
+      "title": "Practice-exercise: TypeScript",
+      "content": "Solution development progress - exercise 1 solution is ready, exercise 2 solution will be started",
+      "reminderDate": "2022-10-09T18:30:00.000Z",
+      "category": "Office",
+      "priority": "Medium"
+    },
+    {
+      "id": 3,
+      "title": "Challenge: TypeScript",
+      "content": "Solution developed, need to submit for evaluation",
+      "reminderDate": "2022-09-09T18:30:00.000Z",
+      "category": "Office",
+      "priority": "Low"
+    },
+    {
+      "id": 4,
+      "title": "Practice-exercise: TypeScript",
+      "content": "Solution reviewed, refactoring is in progress",
+      "reminderDate": "2022-09-11T18:30:00.000Z",
+      "category": "Review",
+      "priority": "Critical"
+    },
+    {
+      "id": 5,
+      "title": "Challenge: SPA",
+      "content": "Keep Note app solution development in progress. Header design is completed. Code to display notes is in progress.",
+      "reminderDate": "2022-09-09T18:30:00.000Z",
+      "category": "Review",
+      "priority": "Medium"
+    },
+    {
+      "title": "Review Meeting",
+      "content": "Documentation of project should be completed before review meeting today",
+      "reminderDate": "2022-12-07T18:30:00.000Z",
+      "category": "Office",
+      "priority": "Critical",
+      "id": 6
+    }
+  ]
+}
